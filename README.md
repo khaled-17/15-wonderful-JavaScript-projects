@@ -17,6 +17,11 @@ I polished my JavaScript skills from Free Code Camp by creating 15 projects usin
 
 [My Javascript Course](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/?referralCode=DD9FA6C0D976918D3E1C)
 
+[course on freeCodeCamp's YouTube channel ](https://www.youtube.com/watch?v=3PHXvlpOkf4)
+
+![ALT TEXT](./freecodecampicon.png)
+
+
 #### Support
 
 Find the Content Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
