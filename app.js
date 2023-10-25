@@ -154,6 +154,7 @@ function displayMenuItems(params) {
       <div class="item-info">
         <div>
           <img src=${item.img}.jpeg class="photo gif" id="gif" alt="">
+          <h4 class="visit showVisit">click to show</h4>
         </div>
         <header>
           <h4>${item.title}</h4>
@@ -168,14 +169,14 @@ function displayMenuItems(params) {
   const gifs = document.querySelectorAll(".gif");
 
   gifs.forEach((gif) => {
-    // const visit=gif.parentElement.querySelector('h4')
+    const visit=gif.parentElement.querySelector('h4')
 
     gif.addEventListener("mouseover", () => {
       const git=changeImageExtension(gif,'jpeg','gif')
       // console.log(gif);
       // gif.src = item.gifSrc; // Replace with the path to your GIF in the 'item' object
       gif.style.border=".25rem  solid #222"
-      // // visit.classList.remove('showVisit')
+      visit.classList.remove('showVisit')
 
       // console.log(visit);
      });
@@ -183,7 +184,7 @@ function displayMenuItems(params) {
     gif.addEventListener("mouseout", () => {
       const git=changeImageExtension(gif,'gif','jpeg')
       gif.style.border=".25rem  solid #c59d5f"
-      // // visit.classList.add('showVisit')
+      visit.classList.add('showVisit')
       // console.log(visit);
 
  

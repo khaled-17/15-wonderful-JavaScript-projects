@@ -209,10 +209,14 @@ Menu
  .visit{
 
   position: relative;
-  left: 0px;
-  bottom:  60px;
-  border: 3px solid #73AD21;
-  width: 5rem;
+  left: 14px;
+  bottom:  35px;
+  border: 3px dotted #03355e;
+  width: 10rem;
+
+  color: #0077b5; /* لون النص */
+
+  transition: border 1.13s; /* تموج التلوين عند التحويم */
 
 
  }
