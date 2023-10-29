@@ -9,7 +9,7 @@ I polished my JavaScript skills from Free Code Camp by creating 15 projects usin
 
 #### visit the website
 
-[go and show](https://khaled-17.github.io/15-wonderful-JavaScript-projects/)
+## [ DEMO](https://khaled-17.github.io/15-wonderful-JavaScript-projects/)
 
 
 
